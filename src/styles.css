@@ -47,6 +47,11 @@ p, p {
 
 }
 
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
 /* main page classes & styles */
 #site-container {
     display: flex;
