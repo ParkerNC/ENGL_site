@@ -52,10 +52,44 @@ iframe {
 }
 
 /* main page classes & styles */
+#site-navbar {
+    display: flex;
+    flex-direction: row;
+    font-family: spectral;
+    font-size: 28px;
+    width: 100%;
+    background-color: #000000;
+}
+
+#site-navbar ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#site-navbar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 #site-container {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+@media screen and (min-width: 810px) {
+    #site-container {
+        width: 70%;
+        margin: auto;
+    }
 }
 
 .section-header {
